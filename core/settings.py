@@ -168,7 +168,8 @@ SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("Bearer",),
 }
 
-AUTH_USER_MODEL = "accounts.User"
+AUTH_USER_MODEL = "accounts.CustomUser"
+
 
 
 # Example using console backend for dev
@@ -179,3 +180,9 @@ DEFAULT_FROM_EMAIL = 'noreply@yourdomain.com'
 FRONTEND_URL = 'https://adfinitum-trails.vercel.app'  
 
 
+SECURE_BROWSER_XSS_FILTER = True
+SECURE_CONTENT_TYPE_NOSNIFF = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+X_FRAME_OPTIONS = 'DENY'
+SECURE_SSL_REDIRECT = True  # if using HTTPS on Render
