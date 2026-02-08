@@ -23,7 +23,8 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 # User Registration Serializer
-# ---------------------------
+
+
 class RegisterSerializer(serializers.ModelSerializer):
     """Serializer for user signup"""
     password = serializers.CharField(
