@@ -4,7 +4,7 @@ from django.core.exceptions import ValidationError
 from django.utils.translation import gettext_lazy as _
 from django.utils import timezone
 
-# ---------------------------
+
 # Custom User Manager
 # ---------------------------
 class UserManager(BaseUserManager):
