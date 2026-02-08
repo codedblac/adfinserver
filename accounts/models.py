@@ -63,7 +63,7 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
         self.email = self.__class__.objects.normalize_email(self.email)
 
 
-# ---------------------------
+
 # Address Model
 # ---------------------------
 class Address(models.Model):
