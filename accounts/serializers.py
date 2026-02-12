@@ -83,7 +83,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
         read_only_fields = ["id", "email", "date_joined"]
 
 
-# ---------------------------
+
 # Password Reset Request Serializer
 
 class PasswordResetRequestSerializer(serializers.Serializer):
