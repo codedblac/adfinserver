@@ -72,7 +72,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
         return data
 
 
-# ---------------------------
+
 # User Profile Serializer
 
 class UserProfileSerializer(serializers.ModelSerializer):
