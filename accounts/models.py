@@ -35,7 +35,7 @@ class UserManager(BaseUserManager):
 
 
 
-# Custom User Model
+#  User Model
 
 class CustomUser(AbstractBaseUser, PermissionsMixin):
     email = models.EmailField(_("email address"), unique=True)
