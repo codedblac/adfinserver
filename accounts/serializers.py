@@ -74,7 +74,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 # ---------------------------
 # User Profile Serializer
-# ---------------------------
+
 class UserProfileSerializer(serializers.ModelSerializer):
     """Read/update user profile"""
     class Meta:
