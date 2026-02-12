@@ -22,7 +22,7 @@ class UserSerializer(serializers.ModelSerializer):
 
 
 
-# User Registration Serializer
+# User Registration
 
 
 class RegisterSerializer(serializers.ModelSerializer):
