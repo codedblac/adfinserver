@@ -85,7 +85,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
 
 # ---------------------------
 # Password Reset Request Serializer
-# ---------------------------
+
 class PasswordResetRequestSerializer(serializers.Serializer):
     email = serializers.EmailField()
 
