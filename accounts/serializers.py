@@ -11,7 +11,7 @@ User = get_user_model()
 
 
 
-# User Serializer
+# User
 
 class UserSerializer(serializers.ModelSerializer):
     """Basic serializer for reading user data"""
