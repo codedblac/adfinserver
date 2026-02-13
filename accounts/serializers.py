@@ -122,7 +122,6 @@ class PasswordResetConfirmSerializer(serializers.Serializer):
         return user
 
 
-# ---------------------------
 # Address Serializer
 
 class AddressSerializer(serializers.ModelSerializer):
