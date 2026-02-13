@@ -47,6 +47,8 @@ class RegisterView(generics.CreateAPIView):
 # ---------------------------
 # JWT Login & Refresh
 # ---------------------------
+
+
 class CustomTokenObtainPairView(TokenObtainPairView):
     serializer_class = CustomTokenObtainPairSerializer
     permission_classes = [permissions.AllowAny]
