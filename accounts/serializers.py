@@ -90,7 +90,7 @@ class PasswordResetRequestSerializer(serializers.Serializer):
         return value
 
 
-# ---------------------------
+# ----------------
 # Password Reset Confirm Serializer
 # ---------------------------
 class PasswordResetConfirmSerializer(serializers.Serializer):
