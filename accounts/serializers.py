@@ -10,9 +10,6 @@ from .models import Address
 User = get_user_model()
 
 
-
-
-
 class UserSerializer(serializers.ModelSerializer):
     """Basic serializer for reading user data"""
     class Meta:
@@ -73,7 +70,7 @@ class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
 
 
 
-# User Profile 
+# User
 
 class UserProfileSerializer(serializers.ModelSerializer):
     """Read/update user profile"""
