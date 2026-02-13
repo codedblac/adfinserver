@@ -92,6 +92,8 @@ class PasswordResetRequestSerializer(serializers.Serializer):
 
 
 # Password Reset Confirm Serializer
+
+
 class PasswordResetConfirmSerializer(serializers.Serializer):
     uidb64 = serializers.CharField()
     token = serializers.CharField()
