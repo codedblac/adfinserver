@@ -59,6 +59,8 @@ class CustomTokenRefreshView(TokenRefreshView):
 # ---------------------------
 # Profile (Get & Update)
 # ---------------------------
+
+
 class ProfileView(APIView):
     permission_classes = [permissions.IsAuthenticated]
 
