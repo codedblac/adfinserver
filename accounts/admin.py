@@ -5,7 +5,7 @@ from .models import CustomUser, Address
 
 
 # Address Inline for User Admin
-# -----------------
+# -------
 class AddressInline(admin.TabularInline):
     model = Address
     extra = 0
