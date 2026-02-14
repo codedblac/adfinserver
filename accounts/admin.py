@@ -14,7 +14,7 @@ class AddressInline(admin.TabularInline):
     ordering = ["-is_default", "-created_at"]
 
 
-# ---------------------------
+# ---------------------
 # Custom User Admin
 # ---------------------------
 @admin.register(CustomUser)
