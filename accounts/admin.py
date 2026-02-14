@@ -16,7 +16,7 @@ class AddressInline(admin.TabularInline):
 
 
 # Custom User Admin
-# -------
+
 @admin.register(CustomUser)
 class CustomUserAdmin(BaseUserAdmin):
     model = CustomUser
