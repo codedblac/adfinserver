@@ -42,7 +42,7 @@ class CustomUserAdmin(BaseUserAdmin):
     )
 
 
-# ---------------------------
+# ----------------------
 # Address Admin (Optional)
 # ---------------------------
 @admin.register(Address)
