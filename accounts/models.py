@@ -68,6 +68,8 @@ class CustomUser(AbstractBaseUser, PermissionsMixin):
 # Address Model
 
 
+
+
 class Address(models.Model):
     user = models.ForeignKey(CustomUser, on_delete=models.CASCADE, related_name="addresses")
     full_name = models.CharField(max_length=255)
