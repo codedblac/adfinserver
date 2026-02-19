@@ -63,6 +63,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 
 
 
+
 class CustomTokenObtainPairSerializer(TokenObtainPairSerializer):
     """Customize JWT login to include user info in response"""
     def validate(self, attrs):
