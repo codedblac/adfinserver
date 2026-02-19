@@ -10,6 +10,8 @@ from .models import Address
 User = get_user_model()
 
 
+
+
 class UserSerializer(serializers.ModelSerializer):
     """Basic serializer for reading user data"""
     class Meta:
