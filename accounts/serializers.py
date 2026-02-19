@@ -126,6 +126,8 @@ class PasswordResetConfirmSerializer(serializers.Serializer):
 
 # Address Serializer
 
+
+
 class AddressSerializer(serializers.ModelSerializer):
     class Meta:
         model = Address
