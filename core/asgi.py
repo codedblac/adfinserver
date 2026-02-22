@@ -25,6 +25,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
 
 # Initialize Django
 
+
 django.setup()
 
 # Get the ASGI application callable
