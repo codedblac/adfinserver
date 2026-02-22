@@ -64,6 +64,8 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000", 
 ]
 
+
+
 CSRF_TRUSTED_ORIGINS = [
     "https://adfinitum-trails.vercel.app",
     "https://adfinitum-backend.onrender.com",
