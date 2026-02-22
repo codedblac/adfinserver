@@ -11,6 +11,7 @@ For more information, see:
 https://docs.djangoproject.com/en/5.2/howto/deployment/asgi/
 """
 
+
 import os
 import django
 
