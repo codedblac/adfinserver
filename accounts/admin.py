@@ -6,7 +6,6 @@ from .models import CustomUser, Address
 
 
 
-
 class AddressInline(admin.TabularInline):
     model = Address
     extra = 0
