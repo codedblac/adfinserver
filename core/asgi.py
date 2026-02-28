@@ -1,3 +1,4 @@
+
 """
 ASGI configuration for the core project.
 
@@ -16,6 +17,7 @@ import os
 import django
 
 from django.core.asgi import get_asgi_application
+
 
 
 # Set the default Django settings module for the ASGI application
