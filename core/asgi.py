@@ -20,8 +20,7 @@ from django.core.asgi import get_asgi_application
 
 
 
-# Set the default Django
-
+# Set the default
 
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "core.settings")
